@@ -77,7 +77,7 @@ export default function App({ Component, pageProps, router }) {
 
 	return (
 		<RadixProvider>
-			<MDXProvider components={{ Icon, Link, code: Code, Title, NextSeo }}>
+			<MDXProvider components={{ Icon, Link, code: Code, Title }}>
 				<Head>
 					<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92206389-5" />
 					<meta name="keywords" content="ui, playbook, documented collection, components, guideline" />

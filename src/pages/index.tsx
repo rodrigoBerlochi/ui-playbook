@@ -26,7 +26,7 @@ const components = [
 	},
 	{
 		name: 'popover',
-		teaser: true,
+		teaser: false,
 	},
 ];
 
